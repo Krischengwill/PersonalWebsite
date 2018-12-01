@@ -1,0 +1,34 @@
+// Callout
+.callout {
+  padding: 15rem 0;
+  background: linear-gradient(
+      90deg,
+      fade-out($white, 0.9) 0%,
+      fade-out($white, 0.9) 100%
+    ),
+    url("./img/bg-callout.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    display: block;
+    max-width: 30rem;
+  }
+//   .show {
+//     position: absolute;
+//     left: -30em;
+//     width: 30em;
+//     height: 20em;
+//     -webkit-animation: slide-in 3s forwards;
+//     animation: slide-in s forwards;
+//  }
+//  @-webkit-keyframes slide-in {
+//    100% { left: 0 }
+//  }
+//  @keyframes slide-in {
+//    100% { left: 0 }
+//  }
+
+}
